@@ -73,7 +73,7 @@ const messageForLikes = (array)=>
     {
         const numberOflikesBeyond2 = array.length - 2;
 
-        return `${array[0]}, ${array[1]} and ${numberOflikesBeyond2} likes this`;
+        return `${array[0]}, ${array[1]} and ${numberOflikesBeyond2} others likes this`;
     }
     else{
         return 'no one likes this';
